@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--CABECERA-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="./imagenes/icono.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Patitas en la Web | Adopciones</title>
+</head>
+
+<!--CUERPO-->
+
+<body>
+
+    <!--TITULO-->
+   <div>
+        <a style="text-decoration:none;" href="index.html">
+            <h3 style=" color: #0c2461;
+    font-size: 280%;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 0 0 2px #2c3e50, 0 0 0 4px #2c3e50;
+    background-color: #2E88C7;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; " > <img style=" width: 50px;" src="./imagenes/collar_pet_animal_dog_cat_icon_124668.png" alt="">Patitas en la Web
+                <img style=" width: 50px; margin-left: -7px" src="./imagenes/collar_pet_animal_dog_cat_icon_124668.png" alt=""> </h3>
+        </a>
+    </div>
+    <hr>
+
+    <!--MENU-->
+    <div>
+        <input type="checkbox" id="abrir-cerrar" name="abrir-cerrar" value="">
+        <label for="abrir-cerrar">&#9776; <span class="abrir">Ver Menú</span>
+        <span class="cerrar">Cerrar</span>
+    </label>
+        <div id="sidebar" class="sidebar">
+            <ul class="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <hr>
+                <li><a href="adopcion.html">ADOPCIÓN</a></li>
+                <hr>
+                <li><a href="requisitosadoptar.html">REQUISITOS PARA ADOPTAR UNA MASCOTA</a></li>
+                <hr>
+                <li><a href="daradopcion.html">DAR EN ADOPCIÓN</a></li>
+                <hr>
+                <li><a href="donaciones.html">DONACIONES</a></li>
+                <hr>
+                <li><a href="daradopcion.html">DONAR-RESCATE DE ANIMALES</a></li>
+                <hr>
+                <li><a href="carru.html">EMPRESAS RECOMENDADAS</a></li>
+                <hr>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <hr>
+                <li><a href="vacuycas.html">VACUNAS Y CASTRACION</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--MASCOTAS-->
+    <main class="container">
+
+        <!--SUBTITULO-->
+        <h3 style="text-align: center;">Mascotas en Adopción</h3>
+        <div class="row galeria">
+
+            <!--IMG1-->
+            <div class="col s12 m4 l3">
+                <div class="material-placeholder"><img src="./imagenes/gato.jpg" alt="" class="responsive-img materialboxed" data-caption="Desparacitado, 1 año de edad"></div>
+            </div>
+
+            <!--IMG2-->
+            <div class="col s12 m4 l3">
+                <div class="material-placeholder"><img src="./imagenes/gato2.jpg" alt="" class="responsive-img materialboxed" data-caption="Gato Siames, Desparacitado,7 meses de edad ">
+                </div>
+            </div>
+
+            <!--IMG3-->
+            <div class="col s12 m4 l3">
+                <div class="material-placeholder"><img src="./imagenes/perro.jpg" alt="" class="responsive-img materialboxed" data-caption="Calendario de Vacunas Completo, 5 meses de edad"></div>
+            </div>
+
+            <!--IMG4-->
+            <div class="col s12 m4 l3">
+                <div class="material-placeholder"><img src="./imagenes/perro2.jpg" alt="" class="responsive-img materialboxed" data-caption="Desparacitado, 3 meses de edad"></div>
+            </div>
+
+            <!--IMG5-->
+            <div class="col s12 m4 l3">
+                <div class="material-placeholder"><img src="./imagenes/gato3.jpg" alt="" class="responsive-img materialboxed" data-caption="Desparacitado y Castrado, 1 año de edad"></div>
+            </div>
+
+            <!--IMG6-->
+            <div class="col s12 m4 l3">
+                <div class="material-placeholder"><img src="./imagenes/gato4.jpg" alt="" class="responsive-img materialboxed" data-caption="Desparacitado, 4 meses de edad"></div>
+            </div>
+
+            <!--IMG7-->
+            <div class="col s12 m4 l3">
+                <div class="material-placeholder"><img src="./imagenes/perro3.jpg" alt="" class="responsive-img materialboxed" data-caption="Calendario de Vacunas completo, 5 meses de edad"></div>
+            </div>
+
+            <!--IMG8-->
+            <div class="col s12 m4 l3">
+                <div class="material-placeholder"><img src="./imagenes/perro4.jpg" alt="" class="responsive-img materialboxed" data-caption="Desparacitado, 3 meses de edad"></div>
+            </div>
+
+            <!--IMG9-->
+            <div class="col s12 m4 l3">
+                <div class="material-placeholder"><img src="./imagenes/perro5.jpg" alt="" class="responsive-img materialboxed" data-caption="Desparacitado, 4 meses de edad"></div>
+            </div>
+
+            <!--IMG10-->
+            <div class="col s12 m4 l3">
+                <div class="material-placeholder"><img src="./imagenes/gato2.jpg" alt="" class="responsive-img materialboxed" data-caption="Castrado y Vacunado, 2 años de edad"></div>
+            </div>
+        </div>
+        <hr>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="imagenes.js"></script>
+
+    <!--BOTON ADOPTAR-->
+    <div>
+        <p style="text-align: center;background-color: forestgreen;border-radius: 45px;color: white;"> <a type="button" href="solicitoadoptar.html" style="font-size: 80px; text-align: center;color: white;">Solicito Adopción </a></p>
+    </div>
+
+    <!--PIE DE PAGINA-->
+    <div id="footer">
+        <hr>
+        <footer style="font-weight: bold; ">Desarrollado por Alumnos de C&P Soft</footer><br>
+        <small>Copyright© 2020  |Todos los Derechos e Izquierdos Reservados <hr></small>
+    </div>
+
+</body>
+
+</html>

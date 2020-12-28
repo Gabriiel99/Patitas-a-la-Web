@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--CABECERA-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./imagenes/icono.ico" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Patitas en la Web | Dar en adopción</title>
+</head>
+
+<!--CUERPO-->
+<body>
+    <div>
+        <a style="text-decoration:none;" href="index.html">
+            <h1> <img src="./imagenes/collar_pet_animal_dog_cat_icon_124668.png" alt="">Patitas en la Web
+            <img style="margin-left: -7px"src="./imagenes/collar_pet_animal_dog_cat_icon_124668.png" alt=""> </h1>
+        </a>
+    </div>
+
+ <!--MENU Y COMIENZO DE FORMULARIO-->   
+<form action="mailto:Patitasalaweb@gmail.com?subject="Dar en adopción" method="post" enctype="text/plain">
+    <hr>
+    <div>
+        <input type="checkbox" id="abrir-cerrar" name="abrir-cerrar" value="">
+        <label for="abrir-cerrar">&#9776; <span class="abrir">Ver Menú</span>
+        <span class="cerrar">Cerrar</span>
+    </label>
+        <div id="sidebar" class="sidebar">
+            <ul class="menu">
+                 <li><a href="index.html">INICIO</a></li>
+                <hr>
+                <li><a href="adopcion.html">ADOPCIÓN</a></li>
+                <hr>
+                <li><a href="requisitosadoptar.html">REQUISITOS PARA ADOPTAR UNA MASCOTA</a></li>
+                <hr>
+                <li><a href="daradopcion.html">DAR EN ADOPCIÓN</a></li>
+                <hr>
+                <li><a href="donaciones.html">DONACIONES</a></li>
+                <hr>
+                <li><a href="carru.html">EMPRESAS RECOMENDADAS</a></li>
+                <hr>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <hr>
+                <li><a href="vacuycas.html">VACUNAS Y CASTRACIÓN</a></li>
+                <hr>
+                <li><a href="nosotros.html">SOBRE NOSOTROS</a></li>                
+            </ul>
+        </div>
+    </div>
+
+    <!--SUBTITULO-->
+    <h2 style="text-align: center;text-transform: uppercase;">Dar en Adopción</h2>
+        <hr style="width: 70%;"
+        >
+        <!--LISTAS DESORDENADAS-->
+        <div style="text-align: left; margin: 4px; padding-left: 3px;">
+            <h4 style="text-align: left;">Antes de dar en adopción, deberías saber que:</h4>
+            <li>Si quieres dar más de 3 animales en adopción por ser una camada, agrupalos en el mismo anuncio o ponte en contacto con nosotros.</li>
+            <li>Queda totalmente prohibida la venta, en caso de detectar indicios de ello tu cuenta podrá ser borrada.</li>
+            <li>Los particulares no pueden publicar tasa de adopción ni recibir donaciones y apadrinamientos.</li>
+            <li>El anuncio será validado antes de que sea visible a los posibles adoptantes. En caso de incumplir nuestras políticas de publicación, será eliminado. El proceso de validación puede durar hasta 24 horas.</li>
+            <br><br>
+        </div>
+
+        <!--DATOS-->
+        <fieldset>
+            <legend>Datos</legend>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text"><br><br>
+            <label for="especie">Especie</label>
+            <select name="especie" id="especie">
+                <option value="">Selecciona</option>
+                <option value="Perro">Perro</option>
+                <option value="Gato">Gato</option><br>
+                <option value="Otro">Otro</option><br>
+            </select>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option value="">Selecciona</option>
+                <option value="En adopción">En adopción</option>
+                <option value="Urgente">Urgente</option>
+                <option value="Adoptado">Adoptado</option>
+                <option value="Devuelto">Devuelto</option>
+            </select><br><br>
+            <label for="raza">Raza</label>
+            <input type="text" name="raza" id="raza"><br><br>
+            <input type="checkbox" name="raza" id="raza" value="Mestizo">Mestizo<br><br>
+            <label for="sexo">Sexo</label>
+            <br>
+            <input type="radio" name="sexo" id="sexo hembra" value="sexo hembra">Hembra<br>
+            <input type="radio" name="sexo" id="sexo macho" value="sexo macho">Macho<br><br>
+            <label for="Fecha">Fecha de Nacimiento(Aprox)</label>
+            <input type="date" name="Fecha" id="Fecha"><br><br>
+            <label for="edad">Edad</label>
+            <select name="edad" id="edad">
+                <option value="">Selecciona</option>
+                <option value="Cachorro">Cachorro</option>
+                <option value="Joven">Joven</option>
+                <option value="Adulto">Adulto</option>
+            </select>
+            <label for="Peso">Peso</label>
+            <input type="number" name="Peso" id="Peso">kg <br><br>
+            <label for="Tamaño">Tamaño</label>
+            <select name="Tamaño" id="Tamaño">
+                <option value="">Selecciona</option>
+                <option value="Mini">Mini</option>
+                <option value="Pequeño">Pequeño</option>
+                <option value="Mediano">Mediano</option>
+                <option value="Grande">Grande</option>
+                <option value="Gigante">Gigante</option>
+            </select>
+            <label for="nivel">Nivel de actividad</label>
+            <select name="nivel de actividad" id="nivel de actividad">
+                <option value="">Selecciona</option>
+                <option value="Desconocida">Desconocida</option>
+                <option value="Nula">Nula</option>
+                <option value="Baja">Baja</option>
+                <option value="Media">Media</option>
+                <option value="Alta">Alta</option>
+                <option value="Muy alta">Muy Alta</option>
+            </select><br><br>
+            <label for="Descripción">Descripción</label><br>
+            <textarea name="Descripción" id="Descripción" cols="60" rows="10" style="resize: none;"></textarea><br>
+            <label for="motivo">¿Por qué motivo lo pones en adopción?</label><br>
+            <textarea name="motivo" id="motivo" cols="60" rows="10" style="resize: none;" placeholder="¡Atención! La pregunta solo tiene fines estadísticos. En ningún momento se hará pública y se relacionará con tu nombre. Por favor, responda con sinceridad."></textarea><br>
+        </fieldset>
+
+        <!--LOCALIZACION-->
+        <fieldset>
+            <legend>Localización</legend>
+            <label for="Provincia">Provincia</label>
+            <select name="Provincia" id="Provincia">
+                <option value="">Selecciona</option>
+                <option value="Buenos aires">Buenos Aires</option>
+                <option value="Catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Cordoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="Entre Ríos">Entre Ríos</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="La Pampa">La Pampa</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones">Misiones</option>
+                <option value="Neuquen">Neuquen</option>
+                <option value="Rio Negro">Rio Negro</option>
+                <option value="Salta">Salta</option>
+                <option value="San Juan">San Juan</option>
+                <option value="San Luis">San Luis</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Santa Fé">Santa Fé</option>
+                <option value="Santiago del Estero">Santiago del Estero</option>
+                <option value="Tierra del Fuego">Tierra del Fuego</option>
+                <option value="Tucumán">Tucumán</option>
+            </select><br><br>
+            <label for="Localidad">Localidad</label>
+            <input type="text" name="Localidad" id="Localidad"><br><br>
+            <label for="Dirección">Dirección</label>
+            <input type="text" name="Dirección" id="Dirección"><br>
+        </fieldset>
+
+
+        <!--SE ENTREGA-->
+        <fieldset>
+            <legend>Se entrega</legend>
+            <input type="checkbox" name="Vacunado" id="Vacunado" value="Si">Vacunado <br>
+            <input type="checkbox" name="Esterilizado" id="Esterilizado" value="Si">Esterilizado <br>
+            <input type="checkbox" name="Desparasitado" id="Desparasitado" value="Si">Desparasitado <br>
+            <input type="checkbox" name="Identificado" id="Identificado" value="Si">Identificado <br>
+            <input type="checkbox" name="Sano" id="Sano" value="Si">Sano
+        </fieldset>
+
+        <!--COMPORTAMIENTO-->
+        <fieldset>
+            <legend>Comportamiento</legend>
+            <label for="Comportamiento">¿Bueno con otros perros?</label>
+            <select name="Comportamiento" id="Comportamiento">
+                <option value="">Selecciona</option>
+                <option value="Desconocido">Desconocido</option>
+                <option value="Bueno solo con machos">Bueno solo con machos</option>
+                <option value="Bueno solo con hembras">Bueno solo con hembras</option>
+                <option value="Bueno con otros perros">Bueno con otros perros</option>
+            </select><br>
+            <input type="checkbox" name="Comportamiento" value="Bueno con los gatos">Bueno con los gatos <br>
+            <input type="checkbox" name="Comportamiento" value="Se escapa">Se escapa <br>
+            <input type="checkbox" name="Comportamiento" value="Independiente">Independiente <br>
+            <input type="checkbox" name="Comportamiento" value="Juguetón">Juguetón<br><br>
+            <label for="comportamiento con extraños">Comportamiento con los extraños</label>
+            <select name="comportamiento con extraños" id="comportamiento con extraños">
+                <option value="">Selecciona</option>
+                <option value="Cauteloso con extraños">Cauteloso con extraños</option>
+                <option value="Amigable con extraños">Amigable con extraños</option>
+                <option value="Protector con extraños">Protector con extraños</option>
+                <option value="Agresivo con extraños">Agresivo con extraños</option>
+            </select><br>
+            <input type="checkbox" name="Comportamiento con extraños"  value="Bueno con otros animales">Bueno con otros animales <br>
+            <input type="checkbox" name="Comportamiento con extraños" value="Bueno con casa">Bueno con casa <br>
+            <input type="checkbox" name="Comportamiento con extraños"  value="Le gusta pasear">Le gusta pasear <br>
+            <input type="checkbox" name="Comportamiento con extraños"  value="Le gusta estar en compañía">Le gusta estar en compañía <br>
+            <input type="checkbox" name="Comportamiento con extraños" value="Dormilón">Dormilón<br><br>
+            <label for="ruidoso">¿Es ruidoso?</label>
+            <select name="ruidoso" id="ruidoso">
+                <option value="">Selecciona</option>
+                <option value="No ladra/maúlla">No ladra/maúlla</option>
+                <option value="A veces">A veces</option>
+                <option value="Ladra/maúlla mucho">Ladra/maúlla mucho</option>
+            </select><br>
+            <input type="checkbox" name="Rasgos"  value="Bueno con los niños">Bueno con los niños <br>
+            <input type="checkbox" name="Rasgos" value="Protector" >Protector <br>
+            <input type="checkbox" name="Rasgos"  value="Tímido">Tímido <br>
+            <input type="checkbox" name="Rasgos" value="Cariñoso">Cariñoso <br>
+        </fieldset>
+
+         <!--CONTACTO-->   
+        <fieldset>
+            <legend>Contacto</legend>
+            <label for="teléfono">Número de celular</label>
+            <input type="number" name="teléfono" id="teléfono"><br>
+            <label for="email">Correo electrónico</label>
+            <input type="text" name="email" id="email"><br>
+        </fieldset>
+
+        <!--SUBIDA DE FOTOS-->
+        <fieldset>
+            <legend>Fotos</legend>
+            <form method="post" enctype="multipart/form-data"><br>
+                <label for="perfil">Foto de perfil</label><br>
+                <input type=file id="perfil" name="perfil" size=60 name="file1"><br><br>
+                <label for="otras fotos">Otras fotos</label><br>
+                <input type=file id="otras fotos" size=60 name="file2"><br><br>
+            <br>
+        </fieldset> <br>
+
+        <!--BOTONES-->
+        <div style="text-align: center;">
+            <input type="submit" class="donar" value="ENVIAR DATOS"onclick="alert('Registro Exitoso!')">   
+        </div>
+</form>
+
+    <!--PIE DE PAGINA-->
+    <div id="footer">
+        <hr>
+        <footer style="font-weight: bold; ">Desarrollado por Alumnos de C&P Soft</footer><br>
+        <small>Copyright© 2020  |Todos los Derechos Reservados <hr></small>
+    </div>
+
+</body>
+
+</html>
